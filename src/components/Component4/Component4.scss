@@ -1,0 +1,10 @@
+.component4 {
+  $primaryColor: #ff5733;
+
+  background-color: $primaryColor;
+  color: #fff;
+
+  &:hover {
+    background-color: darken($primaryColor, 10%);
+  }
+}
